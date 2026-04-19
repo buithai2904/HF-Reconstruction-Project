@@ -1,0 +1,15 @@
+# ── core ─────────────────────────────────────
+streamlit>=1.32.0
+numpy>=1.24.0
+scipy>=1.11.0
+librosa>=0.10.0
+soundfile>=0.12.0
+matplotlib>=3.7.0
+
+# ── optional: Deep Learning method ───────────
+# Uncomment the lines below to enable the SEANet/EnCodec DL method.
+# Requires Python 3.9+ and ~2 GB disk for model weights.
+#
+# torch>=2.0.0
+# torchaudio>=2.0.0
+# encodec>=0.1.1
